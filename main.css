@@ -1,0 +1,194 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ul {
+  display: inline-flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.mat {
+  width: 1152px;
+  height: 864px;
+  background-color: dimgray;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.479);
+  display: flex;
+}
+
+.grid {
+  height: 100%;
+  width: 100%;
+  background-size: 96px 96px, 96px 96px, 48px 48px;
+  background-image:
+    linear-gradient(to right, white 1px, transparent 1px),
+    linear-gradient(to bottom, white 1px, transparent 1px),
+    radial-gradient(circle, gray 1px, rgba(0, 0, 0, 0) 1px);
+}
+
+.horizontalinchestop { 
+  justify-content: space-evenly;
+  width: 100%;
+  align-content: center;
+  word-spacing: 20px;
+  margin-top: 19px;
+}
+
+.verticalinchesleft {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 48px;
+    height: 540px;
+    text-align: center;
+    position: relative;
+    left: 24px;
+    top: -50px;
+}
+
+.horizontalinchesbottom { 
+    justify-content: space-evenly;
+    width: 100%;
+    align-content: center;
+    word-spacing: 20px;
+    margin-top: 125px;
+  }
+  
+  .verticalinchesright {
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: column;
+      width: 48px;
+      height: 540px;
+      text-align: center;
+      position: relative;
+      left: 1080px;
+      top: -817px;
+  }
+
+.horizontalinchnumbers, .verticalinchnumbers {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 42px;
+    color: white;
+    font-weight: 900;
+    background-color: dimgray;
+    background-size: 28px 28px;
+    padding-left: -2px;
+    padding-right: -2px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.verticalinchnumbers {
+    transform: rotate(90deg);
+}
+
+
+.horizontalinchone {
+    left: 14px;
+    position: relative;
+}
+
+.horizontalinchtwo {
+    position: relative;
+    left: 20px;
+}
+
+.horizontalinchthree {
+    position: relative;
+    left: 22px;
+}
+
+.horizontalinchfour {
+    position: relative;
+    left: 18px;
+}
+
+.horizontalinchfive {
+    position: relative;
+    left: 22px;
+}
+
+.horizontalinchsix {
+    position: relative;
+    left: 22px;
+}
+
+.horizontalinchseven {
+    position: relative;
+    left: 22px;
+}
+
+.horizontalincheight {
+    position: relative;
+    left: 20px;
+}
+
+.horizontalinchnine {
+    position: relative;
+    left: 21px;
+}
+
+.horizontalinchten {
+    position: relative;
+    left: 10px;
+}
+
+.horizontalincheleven {
+    position: relative;
+    left: -6px;
+}
+
+.verticalinchone {
+    position: relative;
+    top: 2px;
+}
+
+.verticalinchtwo {
+    position: relative;
+    top: 32px;
+}
+
+.verticalinchthree {
+    position: relative;
+    top: 62px;
+}
+
+.verticalinchfour {
+    position: relative;
+    top: 92px;
+}
+
+.verticalinchfive {
+    position: relative;
+    top: 122px;
+}
+
+.verticalinchsix {
+    position: relative;
+    top: 152px;
+}
+
+.verticalinchseven {
+    position: relative;
+    top: 182px;
+}
+
+.verticalincheight {
+    position: relative;
+    top: 212px;
+}
