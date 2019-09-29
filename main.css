@@ -91,6 +91,7 @@ ul {
     padding-right: -2px;
     padding-top: 3px;
     padding-bottom: 3px;
+    border-radius: 10px;
 }
 
 .verticalinchnumbers {
@@ -191,4 +192,99 @@ ul {
 .verticalincheight {
     position: relative;
     top: 212px;
+}
+
+.whitebox {
+    width: 575px;
+    height: 479px;
+    border: 96px solid white;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 2px;
+    right: 0;
+    top: 298px;
+    opacity: 0.4;
+}
+
+.smallerwhitebox {
+    width: 192px;
+    height: 80px;
+    border: 48px solid white;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 0px;
+    right: 0;
+    top: 490px;
+    opacity: 0.4;
+}
+
+.fiskars {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+    position: absolute;
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+    top: 225px;
+    left: 0;
+    right: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: dimgrey;
+    width: 190px;
+    /* props to George Kagan: https://stackoverflow.com/questions/11839655/is-it-possible-to-adjust-a-fonts-vertical-scaling-using-css */
+    transform: scale(1, .8);
+    -webkit-transform: scale(1, .8); /* Safari and Chrome */
+    -moz-transform: scale(1, .8); /* Firefox */
+    -ms-transform: scale(1, .8); /* IE 9+ */
+    -o-transform: scale(1, .8); /* Opera */
+}
+
+.xdegreeangle {
+    width: 1260px;
+    height: 1px;
+    margin-left: -216px;
+    top: 366px;
+    border-top: 1px solid white;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    opacity: 1;
+    transform: rotate(45deg);
+}
+
+.ydegreeangle {
+    border-radius: 2px;
+    width: 1409px;
+    height: 1px;
+    margin-left: -62px;
+    top: 410px;
+    border-top: 1px solid white;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    opacity: 1;
+    transform: rotate(35deg);
+}
+
+.zdegreeangle {
+    border-radius: 2px;
+    width: 1270px;
+    height: 1px;
+    margin-left: 90px;
+    top: 323px;
+    border-top: 1px solid white;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    opacity: 1;
+    transform: rotate(25deg);
 }
